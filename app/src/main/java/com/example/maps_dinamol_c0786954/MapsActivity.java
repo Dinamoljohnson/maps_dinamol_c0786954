@@ -153,7 +153,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             private void setMarker(LatLng latLng) {
                 MarkerOptions options = new MarkerOptions().position(latLng)
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)) //custom colour
                         .title("A");
 
                 /*if (destMarker != null) clearMap();
