@@ -178,7 +178,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 for (int i=0; i<QUADRILATERAL_SIDES; i++) {
                     options.add(markers.get(i).getPosition());
                 }
-
                 shape = mMap.addPolygon(options);
 
             }
