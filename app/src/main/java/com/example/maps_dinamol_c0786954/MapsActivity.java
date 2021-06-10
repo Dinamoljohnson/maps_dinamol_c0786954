@@ -116,7 +116,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public boolean onMarkerClick(@NonNull Marker marker) {
 
-
+//getting address by tap on marker
                 Geocoder geocoder = new Geocoder(MapsActivity.this, Locale.getDefault());
                 List<Address> address;
                 try {
